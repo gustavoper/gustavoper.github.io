@@ -7,18 +7,16 @@ project-name: Gustavo Pereira
 
 <div style="text-align:center">
 
-<a target="_blank" title="My Twitter Account" href="https://twitter.com/{{ site.twitter_username }}"> 
+<a target="_blank" title="My Twitter Account" href="https://twitter.com/{{ site.twitter_username }}" > 
 <i class="fab fa-twitter-square fa-2x"></i>
 </a>
 <a target="_blank" title="My Linkedin Profile" href="https://linkedin.com/in/{{ site.linkedin_username }}">
 <i class="fab fa-linkedin fa-2x"></i> 
 </a>
-<a target="_blank" title="My SpeakerDeck Presentations (Sorry, portuguese only)" href="https://speakerdeck.com/{{ site.speakerdeck_username }}">
+<a target="_blank" title="My SpeakerDeck Presentations (Sorry, portuguese only)" href="https://speakerdeck.com/{{ site.speakerdeck_username }} ">
 <i class="fab fa-speaker-deck fa-2x"></i> 
 </a>
 </div>
-
-
 
 
 ## Blog posts
