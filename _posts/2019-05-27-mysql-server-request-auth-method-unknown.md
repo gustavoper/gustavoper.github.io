@@ -3,7 +3,13 @@ layout: default
 title:  "MySQL 8.0 error:  The server requested authentication method unknown to the client"
 ---
 
-A few days ago, after trying to create a Migration using MySQL 8.0, I've been through this error:
+# MySQL 8.0 error and Doctrine Migrations 
+
+## (1) The server requested authentication method unknown to the client
+
+
+
+A few days ago, after trying to create a Doctrine Migration using MySQL 8.0, I've been through this error:
 
 ```
 In AbstractMySQLDriver.php line 106:
@@ -55,3 +61,7 @@ default_authentication_plugin= mysql_native_password
 
 [You can also find the complete description of this problem here](https://mysqlserverteam.com/upgrading-to-mysql-8-0-default-authentication-plugin-considerations/).
 
+
+---
+
+[Back to Home]({{ site.url }}/)
